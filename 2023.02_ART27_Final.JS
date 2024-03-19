@@ -13,7 +13,8 @@ function getVal(e) {
     function compareStrings (cardTitle, formControl){
   // doesn't like else, but if makes both return regardless of entry.
     if (cardTitle === formControl){
-    console.log("Yes! SOL means SUN in Latin.");
+  //  console.log("Yes! SOL means SUN in Latin.");
+document.querySelector('msg').innerHTML = "Yes! SOL means SUN in Latin.";
     }
     else if {
       console.log("Not quite. SOL means SUN in Latin.");
