@@ -15,9 +15,9 @@ function getVal(e) {
     if (cardTitle === formControl){
     console.log("Yes! SOL means SUN in Latin.");
     }
-    else {
-      console.log("Not quite. SOL means SUN in Latin.");
-      }
+   // else {
+   //   console.log("Not quite. SOL means SUN in Latin.");
+  //    }
     }
     
   
