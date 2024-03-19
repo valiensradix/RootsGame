@@ -12,7 +12,7 @@ function getVal(e) {
     const formControl = ("sun"||"Sun"||"SUN")
     function compareStrings (cardTitle, formControl){
   // doesn't like else, but if makes both return regardless of entry.
-    if (cardTitle === formControl);{
+    if (cardTitle === formControl){
     console.log("Yes! SOL means SUN in Latin.");
     }
     else {
